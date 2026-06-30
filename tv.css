@@ -1,0 +1,113 @@
+
+#d1{
+    border: 3px solid lime;
+    border-radius: 15px;
+    background: linear-gradient(45deg,#8A2BE2,#A020F0);
+    transition: all .4s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+#d1:hover{
+    transform: scale(1.03) translateY(-5px);
+    box-shadow:
+        0 0 10px lime,
+        0 0 20px cyan,
+        0 0 35px purple;
+    border-color: cyan;
+}
+
+#h1, h2{
+    color: green;  
+
+}
+
+#d2 {
+    height: 200px;
+    width: 55px;
+    border: 5px, double, greenyellow;
+    margin-top: 100px;
+    border: 3px solid lime;
+    border-radius: 15px;
+    transition: all .4s ease;
+    cursor: pointer;
+    text-align: center;
+    background: linear-gradient(45deg,#8A2BE2,#A020F0);
+    position: fixed;
+}
+
+#d2:hover {
+    transform: scale(1.03) translateY(-5px);
+    box-shadow:
+        0 0 10px lime,
+        0 0 20px cyan,
+        0 0 35px purple;
+    border-color: cyan;
+
+}
+
+#d2-1{
+    border: 2px, red, solid;
+    margin-top: 2px;
+    min-height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    position: ;
+}
+#d2-2 {
+    border:2px, red, solid;
+    margin-top: 2px;
+    min-height: 50px;
+    width: 50px;
+    border-radius: 15px;
+}
+
+#im1 {
+    height: 45px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+#im2{
+    height: 45px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+#w2, #w1{
+    display: none ;
+    color: blue;
+    text-shadow:-2px 4px 0px black ;
+    position: absolute;
+    top: 10px;
+    left: 55px;
+}
+
+#w2 {
+    margin-top: 80px;
+    eft: 50px;
+}
+
+#d2-1:hover #w1{
+    display: block;
+}
+
+#d2-2:hover #w2{
+    display: block;
+}
+
+#if1{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+#d-m{
+    height: 30px;
+    border: solid 2px #269440 ;
+}
+
+#m1{
+    color: chocolate;
+    font-family: fantasy;
+    margin-top: 3px;
+}
